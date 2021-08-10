@@ -1,0 +1,6 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.preferredDarkColorTheme": "Visual Studio Dark",
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+    "editor.formatOnSave": true
+}
