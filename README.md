@@ -1,3 +1,3 @@
-# wallpaper_app
+# Wallpaper App
 
 Simple wallpaper app made with Flutter.
