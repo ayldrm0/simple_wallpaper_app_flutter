@@ -54,7 +54,7 @@ class _WallpaperListScreenState extends State<WallpaperListScreen> {
                                 elevation: 5,
                                 child: Image.network(
                                   albumData.getAlbum.photos[index].url,
-                                  fit: BoxFit.contain,
+                                  fit: BoxFit.cover,
                                 ),
                               ),
                             ),
