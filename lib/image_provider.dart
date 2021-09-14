@@ -12,8 +12,7 @@ class ProvideImage with ChangeNotifier {
 
   Future<void> fetchAlbum() async {
     final response = await http
-        .get(Uri.parse('https://picsum.photos/v2/list?page=3&limit=100'));
-    print(response.body);
+        .get(Uri.parse('https://picsum.photos/v2/list?page=2&limit=100'));
     if (response.statusCode == 200) {
       final responseBody = response.body;
 
